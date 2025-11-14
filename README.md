@@ -2,7 +2,7 @@
 
 ## 📦 Project Information
 - **GitHub Repository**: https://github.com/YOUR_USERNAME/finance-dashboard
-- **Live Demo**: https://finance-dashboard-maglo.vercel.app
+- **Live Demo**: https://financedashboard-coral.vercel.app/
 - **Demo Video**: [Loom Link Here - Max 3 min]
 
 ## 🎯 Completed Features
@@ -15,22 +15,7 @@
 - ✅ Form validation with Zod
 - ✅ Toast notifications
 
-## 📸 Screenshots
-
-### Mobile View (375px)
-![Mobile Dashboard](./screenshots/mobile-dashboard.png)
-![Mobile Invoices](./screenshots/mobile-invoices.png)
-
-### Desktop View (1440px)
-![Desktop Dashboard](./screenshots/desktop-dashboard.png)
-![Desktop Invoices](./screenshots/desktop-invoices.png)
-
-### Figma vs Build Comparison
-| Screen | Figma | Build |
-|--------|-------|-------|
-| Login | ![](./screenshots/figma-login.png) | ![](./screenshots/build-login.png) |
-| Dashboard | ![](./screenshots/figma-dashboard.png) | ![](./screenshots/build-dashboard.png) |
-
+  
 ## 🏃 How to Run Locally
 
 ### Prerequisites
