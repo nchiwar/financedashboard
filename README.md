@@ -1,9 +1,9 @@
 # 💰 Finance Dashboard - Deliverables
 
 ## 📦 Project Information
-- **GitHub Repository**: https://github.com/YOUR_USERNAME/finance-dashboard
+- **GitHub Repository**: https://github.com/nchiwar/financedashboard.git
 - **Live Demo**: https://financedashboard-coral.vercel.app/
-- **Demo Video**: [Loom Link Here - Max 3 min]
+- **Demo Video**: https://drive.google.com/file/d/12mkhQXNKufzoMCyOcPN3k0aUb3e_Iq8C/view?usp=sharing
 
 ## 🎯 Completed Features
 - ✅ Authentication (Login/Signup) with Appwrite
@@ -25,8 +25,8 @@
 ### Steps
 1. **Clone repository**
    \`\`\`bash
-   git clone https://github.com/YOUR_USERNAME/finance-dashboard.git
-   cd finance-dashboard
+   git clone https://github.com/nchiwar/financedashboard.git
+   cd financedashboard
    \`\`\`
 
 2. **Install dependencies**
@@ -34,36 +34,12 @@
    npm install
    \`\`\`
 
-3. **Setup Appwrite**
-   - Create project at cloud.appwrite.io
-   - Create database "finance_db"
-   - Create collection "invoices" with attributes:
-     - userId (string, required)
-     - invoiceNumber (string, required)
-     - clientName (string, required)
-     - clientEmail (email, required)
-     - amount (float, required)
-     - vatPercentage (float, required)
-     - vatAmount (float, required)
-     - total (float, required)
-     - dueDate (datetime, required)
-     - status (enum: Paid,Unpaid, required)
-     - description (string, optional)
-     - createdAt (datetime, required)
-     - updatedAt (datetime, required)
-
-4. **Environment variables**
-   \`\`\`bash
-   cp .env.example .env
-   # Fill in your Appwrite credentials
-   \`\`\`
-
-5. **Run development server**
+3. **Run development server**
    \`\`\`bash
    npm run dev
    \`\`\`
 
-6. **Open browser**
+4. **Open browser**
    Navigate to `http://localhost:5173`
 
 ## 🎥 Demo Video Highlights
@@ -74,15 +50,6 @@
 - ✅ Responsive design demonstration
 - ✅ Form validation examples
 
-## 🐛 Known Issues / Future Improvements
-- [ ] Add PDF invoice generation
-- [ ] Implement email sending for invoices
-- [ ] Add multi-currency support
-- [ ] Dark mode toggle
-- [ ] Advanced filtering (date range, amount range)
-- [ ] Export invoices to CSV/Excel
-- [ ] Invoice templates customization
-
 ## 📊 Tech Stack
 - **Frontend**: React 18, TypeScript, Vite
 - **Styling**: Tailwind CSS v4, shadcn/ui
@@ -91,7 +58,6 @@
 - **Forms**: React Hook Form + Zod
 - **Routing**: React Router v6
 - **State**: Custom Hooks + React Context
-- **Testing**: Vitest + Playwright
 - **Deployment**: Vercel
 
 ## 📝 Code Quality
@@ -100,4 +66,3 @@
 - ✅ Conventional commits with Husky
 - ✅ Component-based architecture
 - ✅ Responsive mobile-first design
-- ✅ WCAG AA accessibility compliance
